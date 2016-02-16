@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/load_img"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="ifRoom"
+        android:title="选择图片" />
+    <item
+        android:id="@+id/alpha"
+        android:showAsAction="ifRoom"
+        android:title="透明度" />
+
+</menu>

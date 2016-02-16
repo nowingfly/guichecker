@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rivbird.guichecker.FullscreenActivity">
+
+    <TextView
+        android:id="@+id/image_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="帮助：\n\n1、点击选择图片\n\n2、长按修改透明度"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:ignore="UselessParent" />
+
+</FrameLayout>
